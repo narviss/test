@@ -8,15 +8,22 @@
         {"type": "patch", "release": "patch"},
         {"type": "style", "release": "patch"},
         {"type": "refactor", "release": "patch"},
-        {"tag": "resource", "release": "patch", "subject":  "Add2 new resource"},
-        {"type": "resour", "release": "patch", "body":  "kek"}
+        {"type": "resource", "release": "patch"}
       ],
       "parserOpts": {
         "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
       }
     }],
     ["@semantic-release/release-notes-generator",{
-      "dryRun": "false"
+      "dryRun": "false",
+      "presetConfig": {
+        "types": [
+          {
+            "type": "resource",
+            "section": ":Add: new resource",
+            "hidden": false
+          }
+        ]
     }],
     ["@semantic-release/github", {
       "dryRun": "false"
