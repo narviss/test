@@ -1,5 +1,8 @@
 {
   "name": "test",
   "version": "0.0.0",
-  "devDependencies": {}
+  "devDependencies": {
+    "@semantic-release/github": "^8.0.2",
+    "conventional-changelog-conventionalcommits": "^4.6.3"
+  }
 }
