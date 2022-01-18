@@ -17,8 +17,8 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - run: npm install @semantic-release/github -D
-      - run: npx semantic-release
       - run: npm install conventional-changelog-eslint -D
+      - run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
