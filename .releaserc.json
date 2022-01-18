@@ -9,7 +9,7 @@
         {"type": "style", "release": "patch"},
         {"type": "refactor", "release": "patch"},
         {"tag": "resource", "release": "patch", "subject":  "Add2 new resource"},
-        {"type": "resour", "release": "patch", "subject":  "Add new resource"}
+        {"type": "resour", "release": "patch"}
       ],
       "parserOpts": {
         "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
