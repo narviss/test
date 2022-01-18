@@ -1,0 +1,25 @@
+repos:
+  - repo: 'https://github.com/pre-commit/pre-commit-hooks'
+    rev: v4.1.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: check-added-large-files
+      - id: check-byte-order-marker
+      - id: check-ast
+      - id: check-json
+  - repo: 'https://gitlab.com/pycqa/flake8'
+    rev: 4.0.1
+    hooks:
+      - id: flake8
+  - repo: 'https://github.com/psf/black'
+    rev: 21.12b0
+    hooks:
+      - id: black
+  - repo: local
+    hooks:
+      - id: semantic-release
+        name: check for semantic-release
+        language: pygrep
+        entry: '([a-z]+\:)'
+        args: [ --multiline ]
+        stages: [ commit-msg ]
