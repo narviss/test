@@ -1,5 +1,5 @@
 {
-  "branches": ["master", "+([0-9])?(.{+([0-9]),x}).x", "dev"],
+  "branches": ["main", "+([0-9])?(.{+([0-9]),x}).x", "dev"],
   "debug": "True",
   "plugins": [
     ["@semantic-release/commit-analyzer", {
