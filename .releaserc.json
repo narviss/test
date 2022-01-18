@@ -16,7 +16,7 @@
     }],
     ["@semantic-release/release-notes-generator",{
       "dryRun": "false",
-      "preset": "conventionalcommits",
+      "preset": "angular",
       "presetConfig": {
         "types": [
           {
