@@ -1,1 +1,1 @@
-print("test add resource: lolja")
+print("test add resource: lolja mail")
