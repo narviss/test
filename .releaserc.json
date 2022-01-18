@@ -8,7 +8,8 @@
         {"type": "patch", "release": "patch"},
         {"type": "style", "release": "patch"},
         {"type": "refactor", "release": "patch"},
-        {"tag": "resource", "release": "patch"}
+        {"tag": "resource", "release": "patch"},
+        {"type": "resour", "release": "patch"}
       ],
       "parserOpts": {
         "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
