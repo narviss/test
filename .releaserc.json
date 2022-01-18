@@ -20,7 +20,7 @@
         "types": [
           {
             "type": "resource",
-            "section": ":Add: new resource",
+            "section": "Add new resources",
             "hidden": false
           }
         ]
