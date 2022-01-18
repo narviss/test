@@ -31,7 +31,8 @@
           {"type": "build", "section": "Build System", "hidden": true},
           {"type": "ci", "section": "Continuous Integration", "hidden": true},
           {"type": "improvement", "section": "Improvement", "hidden": false},
-          {"type": "resource", "section": "Add new resources", "hidden": false},
+          {"type": "resource", "section": "Add new resources", "hidden": false}
+        ]
       }
     }],
     ["@semantic-release/github", {
