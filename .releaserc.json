@@ -15,10 +15,10 @@
       }
     }],
     ["@semantic-release/release-notes-generator",{
-      "dryRun": "false",
+      "dryRun": "false"
     }],
     ["@semantic-release/gitlab", {
-      "dryRun": "false",
+      "dryRun": "false"
     }],
     ["@semantic-release/exec", {
       "verifyConditionsCmd": "./verify.sh",
