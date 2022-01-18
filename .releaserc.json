@@ -17,12 +17,8 @@
     ["@semantic-release/release-notes-generator",{
       "dryRun": "false"
     }],
-    ["@semantic-release/gitlab", {
+    ["@semantic-release/github", {
       "dryRun": "false"
-    }],
-    ["@semantic-release/exec", {
-      "verifyConditionsCmd": "./verify.sh",
-      "publishCmd": "./publish.sh ${nextRelease.version} ${options.branch} ${commits.length} ${Date.now()}"
     }]
   ]
 }
