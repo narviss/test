@@ -24,6 +24,7 @@
             "hidden": false
           }
         ]
+      }
     }],
     ["@semantic-release/github", {
       "dryRun": "false"
