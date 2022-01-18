@@ -19,57 +19,19 @@
       "preset": "conventionalcommits",
       "presetConfig": {
         "types": [
-          {
-            "type": "resource",
-            "section": "Add new resources",
-            "hidden": false
-          },
-           {
-              "type": "feat",
-              "section": ":sparkles: Features",
-              "hidden": false
-            },
-            {
-              "type": "fix",
-              "section": ":bug: Fixes",
-              "hidden": false
-            },
-            {
-              "type": "docs",
-              "section": ":memo: Documentation",
-              "hidden": false
-            },
-            {
-              "type": "style",
-              "section": ":barber: Code-style",
-              "hidden": false
-            },
-            {
-              "type": "refactor",
-              "section": ":zap: Refactor",
-              "hidden": false
-            },
-            {
-              "type": "perf",
-              "section": ":fast_forward: Performance",
-              "hidden": false
-            },
-            {
-              "type": "test",
-              "section": ":white_check_mark: Tests",
-              "hidden": false
-            },
-            {
-              "type": "ci",
-              "section": ":repeat: CI",
-              "hidden": false
-            },
-            {
-              "type": "chore",
-              "section": ":repeat: Chore",
-              "hidden": false
-            }
-        ]
+          {"type": "feat", "section": "Features"},
+          {"type": "fix", "section": "Bug Fixes"},
+          {"type": "perf", "section": "Performance Improvements"},
+          {"type": "revert", "section": "Reverts"},
+          {"type": "docs", "section": "Documentation", "hidden": false},
+          {"type": "style", "section": "Styles", "hidden": true},
+          {"type": "chore", "section": "Miscellaneous Chores", "hidden": true},
+          {"type": "refactor", "section": "Code Refactoring", "hidden": true},
+          {"type": "test", "section": "Tests", "hidden": true},
+          {"type": "build", "section": "Build System", "hidden": true},
+          {"type": "ci", "section": "Continuous Integration", "hidden": true},
+          {"type": "improvement", "section": "Improvement", "hidden": false},
+          {"type": "resource", "section": "Add new resources", "hidden": false},
       }
     }],
     ["@semantic-release/github", {
